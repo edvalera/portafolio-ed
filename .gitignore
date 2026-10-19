@@ -1,0 +1,19 @@
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración local
+.vscode/
+
+# Dependencias
+node_modules/
+
+# Variables de entorno y datos privados
+.env
+.env.*
+*.pem
+*.key
+
+# Archivos temporales
+*.log
