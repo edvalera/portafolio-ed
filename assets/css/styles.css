@@ -457,16 +457,21 @@ img {
 .about-photo {
     max-width: 320px;
     justify-self: center;
-    background: #1a2d45;
+    width: 100%;
+    border: 1px solid #455a77;
+    border-radius: 22px;
     padding: 10px;
-    border: 1px solid var(--line);
-    border-radius: 17px;
+    background: #162840;
+    box-shadow: 0 24px 60px #0003;
 }
 
 .about-photo img {
+    display: block;
+    width: 100%;
+    border-radius: 14px;
     aspect-ratio: 1/1;
     object-fit: cover;
-    border-radius: 10px;
+    background: #223a55;
 }
 
 .photo-note {
@@ -1086,6 +1091,7 @@ img {
     pointer-events: none;
     cursor: not-allowed;
 }
+
 /*-----------------------------*/
 .lab-grid {
     display: grid;
